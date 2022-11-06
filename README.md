@@ -16,16 +16,24 @@ Everything provided here was tested for **Python 3.10**, **numpy 1.23** and **op
 
 This work is heavily based on this article: [Deep Learning base Human Pose Estimation using OpenCV](https://learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/) 
 
-And here, the scripts were slightly changed to make them more informative while being used and fix some issues (especially for the videos).
+And here, the scripts were slightly changed to make them more informative to the user while being executed and fix some issues (especially for the videos).
 
 ## How to Run
 
-The scripts for image and video can be run without entering any arguments, so they'll use the default values defined inside. e.g.:
+The scripts for image and video can be run without entering any arguments, so they'll use the default values defined in the codebase inside. e.g.:
 
 ```
 python get_hpe_image.py
 
 python get_hpe_video.py
+```
+
+However, it is highly advised to use the supported additional arguments for getting different results. Here are the usage examples:
+
+```
+python get_hpe_image.py --mode <enter_mode> --device <enter_device> --image_file <input_image_location>
+
+python get_hpe_video.py --mode <enter_mode> --device <enter_device> --video_file <input_video_location>
 ```
 
 ## Performance
