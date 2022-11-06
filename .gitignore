@@ -1,0 +1,4 @@
+pose/coco/pose_iter_440000.caffemodel
+pose/mpi/pose_iter_160000.caffemodel
+get_hpe_image.cpp
+get_hpe_video.cpp
